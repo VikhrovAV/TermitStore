@@ -205,7 +205,7 @@ footer .topnaf {
 	margin: 0 10px;
 }
 .link_vk a{
-	color:#fff;
+	color: white;
 }
 .link_vk:hover{
 	opacity: 0.7;
@@ -219,7 +219,7 @@ footer .topnaf {
 	margin: 0 10px;
 }
 .link_inst a{
-	color:#fff;
+	color:white;
 }
 .link_inst:hover{
 	opacity: 0.7;
@@ -230,7 +230,7 @@ footer .topnaf {
 	margin: -2% 7.5%;
 }
 .adres a{
-	color: #fff;
+	color: white;
 }
 .adres a:hover{
 	opacity: 0.7;
