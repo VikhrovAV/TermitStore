@@ -1,0 +1,550 @@
+*,*:before,*:after{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+.logo{
+	background: #624126;
+	display: flex;
+	justify-content: left;
+	padding: 0 0 0 70px;
+	z-index: 4;
+}
+.graficlogo{
+	padding: 2px;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin-left: 40%;
+}
+.header_burger{
+	display: none;
+}
+.icon{
+	display: none;
+}
+nav{
+	margin-top: -65px;
+	margin-left: 50%;
+}
+.topnav{
+	padding: 0 0 38px;
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.topnav a:hover{
+	border-bottom: 2px solid #fff;
+}
+.knife{
+	padding: 0 0 250px;
+}
+.knife img{
+	min-width: 100%;
+    min-height: 100%;
+    position: flex;
+}
+.knife h1{
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
+	font-size: 55px;
+	margin-top: -27%;
+	margin-left: 60%;
+	font-style: oblique;
+	letter-spacing: -4px;
+}
+
+
+.container{
+	max-width: 1450px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.advantage h1{
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+.advantage_page{
+	display: flex;
+}
+.a_page{
+	text-align: center;
+	margin: 0 auto;
+}
+.a_page h2{
+	font-size: 24px;
+	font-weight: 1000;
+}
+.a_page p{
+	font-size: 18px;
+}
+
+.katalog h1{
+	font-size: 24px;
+	padding-bottom: 20px;
+	padding: 25px 0 0 0;
+}
+.katalog h2{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.katalog__page{
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: -400px;
+}
+.katalog__page h2{
+	font-size: 19px;
+	font-weight: 1000;
+	padding: 0 0 15px;
+}
+.main_filter{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: -25px 0 50px; 
+}
+.main_filter h2{
+  	margin: 0 10px;
+	font-size: 20px;
+	color: #8a8a8a;
+}
+
+
+.main_delivery{
+	background-color: #dddddd;
+	border: 5px ridge;
+}
+.main_delivery h1{
+	font-size: 35px;
+	font-weight: 1000;
+	text-align: center;
+	display: flex; 
+}
+.main_delivery img{
+	display: flex;
+	margin: 1% 2%;
+}
+.main_delivery h2{
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+	font-size: 40px;
+	margin: -35% 0 50px; 
+}
+
+
+footer{
+	background-color: #624126; 
+	color: #fff;
+	font-size: 15px;
+}
+.logof{
+	background: #624126;
+	display: flex;
+	justify-content: left;
+	padding: 0 0 0 70px;
+}
+.graficlogof{
+	padding: 2px;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin-left: 40%;
+}
+.topnaf{
+	padding: 0 0 38px;
+}
+.topnaf a{
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.topnaf a:hover{
+	border-bottom: 2px solid #fff;
+}
+.basement h1{
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 28px;
+	margin-top: -6%;
+	margin-right: 40%;
+}
+
+footer .topnaf {
+	margin-top: -13%;
+}
+.contact{
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 0 0 20%;
+}
+.link_vk{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: -2% 15% 40px; 
+}
+.link_vk h2{
+	margin: 0 10px;
+}
+.link_inst{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: -2% 7% 50px;
+}
+.link_inst h2{
+	margin: 0 10px;
+}
+.adres {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: -2% 7.5%;
+}
+
+
+
+
+
+
+@media (max-width: 1450px){
+	.container {
+		min-width: 1220px;
+	}
+	.contact{
+		margin: 0 0 0 10%;
+	}
+	.advantage h1{
+		margin: -2% 0 0 0;
+	}
+}
+@media screen and (max-width: 1439px) {
+	nav{
+		margin-left: 40%;
+	}
+	.basement h1{
+		display: none;
+	}
+}
+@media (max-width: 1245px){
+	.container {
+		min-width: 970px;
+	}
+	.knife h1{
+		font-size: 40px; 
+	}
+	.advantage h1{
+		margin: -3% 0 0 0;
+	}
+	.k_page	img{
+		width: 80%;
+	}
+}	
+@media (max-width: 1260px) {
+	.main_delivery h2{
+		font-size: 30px;
+		padding: 0 0 50px;
+	}
+	.main_delivery h1{
+		font-size: 25px;
+	}
+	.contact{
+		margin: 0 0 0 5%;
+	}
+}
+@media screen and (max-width: 1212px) {
+	nav{
+		margin-left: 30%;
+	}
+	.graficlogo{
+		width: 90%;
+	}
+}
+@media (max-width: 1122px) {
+	.contact{
+		margin: 0;
+	}
+}
+@media (max-width: 1080px){
+	.container {
+		min-width: 750px;
+	}
+	.advantage h1{
+		margin: -8% 0 0 0;
+	}
+	.k_page	img{
+		width: 70%;
+	}
+	.k_page h2{
+		font-size: 15px;
+	}
+	.main_delivery h2{
+		padding: 0 0 120px;
+		margin: -45% 0 0 0;
+	}
+	.main_delivery h1{
+		margin-left: 40px;
+	}
+}
+@media screen and (max-width: 1042px) {
+	.logo{
+		display: flex;
+		justify-content: center;
+	}
+	.graficlogo{
+		margin-left: 0;
+		width: 70%;
+	}
+		
+		.header_burger {
+			display: block;
+			position: relative;
+			width: 30px;
+			height: 20px;
+			position: relative;
+			z-index: 3;
+			margin-top: -50px;
+			margin-left: 50px;
+		}
+		.header_burger span{
+			position: absolute;
+			background-color: #fff;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			top: 9px;
+			transition: all 0.3s ease 0s;
+		}
+
+		.header_burger:before,
+		.header_burger:after{
+			content: '';
+			background-color: #fff;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			left: 0;
+			transition: all 0.3s ease 0s;
+		}
+		.header_burger:before{
+			top: 0;
+		}
+		.header_burger:after{
+			bottom: 0;
+		}
+		.header_burger.active span{
+		transform: scale(0);
+		}
+		.header_burger.active:before{
+		transform: rotate(45deg);
+		top: 9px;
+		}
+		.header_burger.active:after{
+		transform: rotate(-45deg);
+		bottom: 9px;
+		}
+		.header_menu{
+			position: fixed;
+			top: -100%;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: #624126;
+			padding: 0px 0px 0px 0px;
+			margin: 0;
+			transition: all 0.3s ease 0s;
+		}
+		.header_menu.active{
+			top: 0;
+			transition: all 0.3s ease 0s;
+		}
+		.topnav a{
+			display: block;
+			margin: 0px 0px 10px 0px;
+			font-size: 22px;
+		}
+		.topnav a{
+			
+			
+		}
+	.knife h1{
+		font-size: 30px;
+		letter-spacing: 0; 
+	}
+	.knife img{
+		width: 100%;
+	    height: 100%;
+	    position: flex;
+	    margin-top: 26px;
+	}
+	.advantage h1{
+		margin: -7% 0 0 0;
+	}
+	.adv{
+		width: 50%;
+	}	
+	.topnaf a{
+		font-size: 15px;
+	}
+	.contact{
+		font-size: 10px;
+	}
+	.link_vk{
+		font-size: 10px;
+	}
+	.link_inst{
+		font-size: 10px;
+	}
+	.adres{
+		font-size: 10px;
+	}
+}
+@media (max-width: 1036px) {
+	.main_delivery h2{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		flex-direction: column;
+		font-size: 25px 
+	}
+	.main_delivery h1{
+		flex-direction: column;
+	}
+	.main_delivery img{
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.graficlogof{
+		margin-left: 0;
+	}
+}
+@media (max-width: 875px) {
+	.advantage h1{
+		margin: -14% 0 0 0;
+	}
+}
+@media (max-width: 767px){
+	.container {
+		min-width: 626px;
+	}
+	.knife h1{
+		display: flex;
+		font-size: 30px; 
+	}
+	.advantage h1{
+		margin: -19% 0 0 0;
+	}
+	.k_page h2{
+		font-size: 10px;
+	}
+}
+@media (max-width: 860px) {
+	.graficlogof{
+		width: 70%;
+	}
+	.topnaf a{
+		margin-right: 0px;
+	}
+}
+@media (max-width: 750px){
+	.contact{
+		margin: 0 100px 0 0;
+	}
+}
+@media (max-width: 706px) {
+	.advantage h1{
+		margin: -30% 0 0 0;
+	}
+}
+@media (max-width: 640px){
+	.container {
+		min-width: 370px;
+	}
+	.knife h1{
+		font-size: 20px; 	
+	}
+	.advantage h1{
+		margin: -20% 0 0 0;
+	}
+	.contact{
+		margin: 0 200px 0 0;
+	}
+}
+@media (max-width: 600px) {
+	.topnaf{
+		margin-top:0;
+		text-align: right
+	}
+}
+@media (max-width: 525px) {
+	.advantage h1{
+		margin: -37% 0 0 0;
+	}
+	.main_delivery h2{
+		font-size: 20px;
+	}
+	.main_delivery h1{
+		font-size: 20px;
+	}
+	.graficlogof{
+		display: left;
+		margin: 0;
+	}
+	.logof{
+		margin: 0;
+		padding: 0;
+	}
+}
+@media (max-width: 485px) {
+	.advantage h1{
+		margin: -50% 0 0 0;
+	}
+	.advantage_page{
+		flex-direction: column;
+	}
+	.adv{
+		width: 50%;
+	}	
+	.katalog__page{
+		grid-template-columns: auto;
+	}
+	.k_page h2{
+		font-size: 20px;
+	}
+	.main_delivery img{
+		width: 90%;
+	}
+	.contact{
+		margin: 0 280px 0 0;
+	}
+}
+@media (max-width: 403px){
+	.container{
+		min-width: 320px;
+	}
+	.knife h1{
+		font-size: 15px; 
+	}
+	.advantage h1{
+		margin: -55% 0 0 0;
+	}
+
+}
