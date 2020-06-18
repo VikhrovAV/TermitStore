@@ -228,7 +228,6 @@ footer .topnaf {
 	display: flex;
 	flex-direction: row-reverse;
 	margin: -2% 7.5%;
-	color: #fff;
 }
 .adres a{
 	color: white;
@@ -250,14 +249,15 @@ footer .topnaf {
 	.advantage h1{
 		margin: -2% 0 0 0;
 	}
-}
-@media screen and (max-width: 1439px) {
 	nav{
 		margin-left: 40%;
 	}
 	.basement h1{
 		display: none;
 	}
+}
+@media screen and (max-width: 1439px) {
+	
 }
 @media (max-width: 1245px){
 	.container {
