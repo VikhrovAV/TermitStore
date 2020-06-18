@@ -204,6 +204,12 @@ footer .topnaf {
 .link_vk h2{
 	margin: 0 10px;
 }
+.link_vk a{
+	color:#fff;
+}
+.link_vk:hover{
+	opacity: 0.7;
+}
 .link_inst{
 	display: flex;
 	flex-direction: row-reverse;
@@ -212,12 +218,20 @@ footer .topnaf {
 .link_inst h2{
 	margin: 0 10px;
 }
+.link_inst a{
+	color:#fff;
+}
+.link_inst:hover{
+	opacity: 0.7;
+}
 .adres {
 	display: flex;
 	flex-direction: row-reverse;
 	margin: -2% 7.5%;
 }
-
+.adres a{
+	color: #fff;
+}
 
 
 
