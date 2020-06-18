@@ -228,6 +228,7 @@ footer .topnaf {
 	display: flex;
 	flex-direction: row-reverse;
 	margin: -2% 7.5%;
+	color: #fff;
 }
 .adres a{
 	color: white;
