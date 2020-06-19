@@ -270,6 +270,9 @@ footer .topnaf {
 	.k_page	img{
 		width: 80%;
 	}
+	.a_page img{
+		width: 80%;
+	}
 }	
 @media (max-width: 1260px) {
 	.main_delivery h2{
@@ -302,6 +305,15 @@ footer .topnaf {
 	}
 	.advantage h1{
 		margin: -8% 0 0 0;
+	}
+	.a_page img{
+		width: 70%;
+	}
+	.a_page h2{
+		font-size: 18px;
+	}
+	.a_page p{
+		font-size: 15px;
 	}
 	.k_page	img{
 		width: 70%;
@@ -414,9 +426,6 @@ footer .topnaf {
 	.advantage h1{
 		margin: -7% 0 0 0;
 	}
-	.adv{
-		width: 50%;
-	}	
 	.topnaf a{
 		font-size: 15px;
 	}
@@ -468,6 +477,12 @@ footer .topnaf {
 	}
 	.advantage h1{
 		margin: -19% 0 0 0;
+	}
+	.a_page h2{
+		font-size: 13px;
+	}
+	.a_page p{
+		font-size: 10px;
 	}
 	.k_page h2{
 		font-size: 10px;
@@ -540,8 +555,20 @@ footer .topnaf {
 	.advantage_page{
 		grid-template-columns: auto;
 	}
-	.k_page h2{
+	.a_page h2{
 		font-size: 20px;
+	}
+	.a_page p{
+		font-size: 17px;
+	}
+	.a_page img{
+		width: 50%;
+	}
+	.k_page h2{
+		font-size: 17px;
+	}
+	.k_page img{
+		width: 60%;
 	}
 	.main_delivery img{
 		width: 90%;
