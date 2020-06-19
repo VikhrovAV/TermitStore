@@ -78,11 +78,9 @@ nav{
 	padding-bottom: 20px;
 }
 .advantage_page{
-	display: flex;
-}
-.a_page{
 	text-align: center;
-	margin: 0 auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
 .a_page h2{
 	font-size: 24px;
@@ -328,7 +326,7 @@ footer .topnaf {
 		margin-left: 0;
 		width: 70%;
 	}
-		
+		/* Стилизация бургера */
 		.header_burger {
 			display: block;
 			position: relative;
@@ -339,6 +337,7 @@ footer .topnaf {
 			margin-top: -50px;
 			margin-left: 50px;
 		}
+		/* Стиль для средней полосы */
 		.header_burger span{
 			position: absolute;
 			background-color: #fff;
@@ -348,7 +347,7 @@ footer .topnaf {
 			top: 9px;
 			transition: all 0.3s ease 0s;
 		}
-
+		/* Общий стиль для рисования линий */
 		.header_burger:before,
 		.header_burger:after{
 			content: '';
@@ -359,12 +358,15 @@ footer .topnaf {
 			left: 0;
 			transition: all 0.3s ease 0s;
 		}
+		/* Стиль для верхней полосы */
 		.header_burger:before{
 			top: 0;
 		}
+		/* Стиль для нижней полосы */
 		.header_burger:after{
 			bottom: 0;
 		}
+		/* Здесь происходит изменение иконки меню на иконку крестик */
 		.header_burger.active span{
 		transform: scale(0);
 		}
@@ -376,6 +378,7 @@ footer .topnaf {
 		transform: rotate(-45deg);
 		bottom: 9px;
 		}
+		/* Позиция для меню */
 		.header_menu{
 			position: fixed;
 			top: -100%;
@@ -384,10 +387,11 @@ footer .topnaf {
 			height: 100%;
 			overflow: auto;
 			background-color: #624126;
-			padding: 0px 0px 0px 0px;
+			padding: 0;
 			margin: 0;
 			transition: all 0.3s ease 0s;
 		}
+		/* При нажатии на иконку меню, появляется меню */
 		.header_menu.active{
 			top: 0;
 			transition: all 0.3s ease 0s;
@@ -396,10 +400,6 @@ footer .topnaf {
 			display: block;
 			margin: 0px 0px 10px 0px;
 			font-size: 22px;
-		}
-		.topnav a{
-			
-			
 		}
 	.knife h1{
 		font-size: 30px;
@@ -534,13 +534,10 @@ footer .topnaf {
 	.advantage h1{
 		margin: -50% 0 0 0;
 	}
-	.advantage_page{
-		flex-direction: column;
-	}
-	.adv{
-		width: 50%;
-	}	
 	.katalog__page{
+		grid-template-columns: auto;
+	}
+	.advantage_page{
 		grid-template-columns: auto;
 	}
 	.k_page h2{
